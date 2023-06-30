@@ -1,7 +1,7 @@
 // https://localhost:3000/api/users/register
 import { connectDB } from "@/config/dbConfig";
 import { NextRequest, NextResponse } from "next/server";
-import { User } from "../../../models/user";
+import { User } from "@/models/user";
 import bcrypt from "bcrypt";
 
 connectDB();
